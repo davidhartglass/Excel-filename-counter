@@ -1,0 +1,15 @@
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\bin\Debug\Davids_Project.exe.config
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\bin\Debug\Davids_Project.exe
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\bin\Debug\Davids_Project.pdb
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.csprojResolveAssemblyReference.cache
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.csproj.ResolveComReference.cache
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\MainWindow.g.cs
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\App.g.cs
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project_MarkupCompile.cache
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project_MarkupCompile.lref
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\MainWindow.baml
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.g.resources
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.Properties.Resources.resources
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.csproj.GenerateResource.Cache
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.exe
+C:\Users\DGH\documents\visual studio 2015\Projects\Davids_Project\Davids_Project\obj\Debug\Davids_Project.pdb
