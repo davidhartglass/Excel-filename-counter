@@ -5,16 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Davids_Project"
         mc:Ignorable="d"
-        Title="Filename Extraction Counter" Height="600" Width="900" Loaded="Filename_Extraction_Counter_Loaded">
+        Title="Filename Extraction Counter" Height="600" Width="1200" Loaded="Filename_Extraction_Counter_Loaded">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="BrowseFileExplorerBtn" Content="File..." Margin="10,94,0,0" VerticalAlignment="Top" Click="BrowseFileExplorerBtn_Click" HorizontalAlignment="Left" Width="97"/>
-        <TextBox x:Name="FilePathTextBox" Height="23" Margin="149,91,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button x:Name="goButton" Content="Go" Margin="10,69,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.16,-0.1" Click="goButton_Click" Height="20" HorizontalAlignment="Left" Width="97"/>
-        <Label x:Name="label" Content="EXCEL Spreadsheet FIlename Counter" HorizontalAlignment="Center" Margin="40,10,30,0" VerticalAlignment="Top" Width="572" HorizontalContentAlignment="Center" Height="54" FontSize="22"/>
-        <DataGrid x:Name="myGrid" Margin="15,137,10,10"/>
+        <Button x:Name="BrowseFileExplorerBtn" Content="File..." Margin="10,90,0,0" VerticalAlignment="Top" Click="BrowseFileExplorerBtn_Click" HorizontalAlignment="Left" Width="97"/>
+        <TextBox x:Name="FilePathTextBox" Height="23" Margin="149,87,10,0" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button x:Name="goButton" Content="Go" Margin="10,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.16,-0.1" Click="goButton_Click" Height="20" HorizontalAlignment="Left" Width="97"/>
+        <Label x:Name="label" Content="EXCEL Spreadsheet FIlename Counter" HorizontalAlignment="Center" Margin="315,6,305,0" VerticalAlignment="Top" Width="572" HorizontalContentAlignment="Center" Height="54" FontSize="22"/>
+        <DataGrid x:Name="myGrid" Margin="15,188,10,14"/>
+        <ProgressBar x:Name="myProgressBar" Height="20" Margin="149,65,10,0" VerticalAlignment="Top"/>
+        <Label x:Name="totalLabel" Content="Total Distinct Filenames: " HorizontalAlignment="Left" Margin="15,157,0,0" VerticalAlignment="Top" Width="215"/>
 
     </Grid>
 </Window>

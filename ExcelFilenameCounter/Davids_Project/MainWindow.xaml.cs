@@ -42,6 +42,8 @@ namespace Davids_Project
         private void Filename_Extraction_Counter_Loaded(object sender, RoutedEventArgs e)
         {
             goButton.Visibility = Visibility.Collapsed;
+            goButton.IsEnabled = true;
+            myProgressBar.Visibility = Visibility.Collapsed;
         }
 
         private void BrowseFileExplorerBtn_Click(object sender, RoutedEventArgs e)
@@ -72,11 +74,17 @@ namespace Davids_Project
 
         private async void goButton_Click(object sender, RoutedEventArgs e)
         {
+            myProgressBar.Visibility = Visibility.Visible;
             await Task.Run(() => getExcelData());
         }
 
         private void getExcelData()
         {
+            this.Dispatcher.Invoke(() =>
+            {
+                goButton.IsEnabled = false;
+            });
+
             //Create COM Objects. Create a COM object for everything that is referenced
             bool excelWasRunning = System.Diagnostics.Process.GetProcessesByName("excel").Length > 0;
             Excel.Application xlApp = new Excel.Application();
@@ -146,7 +154,7 @@ namespace Davids_Project
             {
                 myGrid.ItemsSource = myDictionary;
             });
-            
+
             //myGrid.Items.Add(myDictionary);
 
             //cleanup
@@ -166,6 +174,11 @@ namespace Davids_Project
 
             //quit and release
             if (xlApp != null) { xlApp.Quit(); }
+
+            this.Dispatcher.Invoke(() =>
+            {
+                goButton.IsEnabled = true;
+            });
         }
     }
 }
